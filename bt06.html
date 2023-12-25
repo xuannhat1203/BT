@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  method="get">
+    <h3>Thêm nhân viên mới</h3>
+    <div id="infor">
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name"><br>
+        <label for="date">Ngày sinh đầy đủ:</label>
+        <input type="date" id="date"><br>
+        <label for="month">Tháng và năm:</label>
+        <input type="month" id="month"><br>
+        <label for="time">Thời gian:</label>
+        <input type="time" id="time"><br>
+        <label for="gender">Giới tính:</label>
+        <input type="radio" name="rd" id="gender">MALE
+        <input type="radio" name="rd" id="gender">FEMALE
+        <input type="radio" name="rd" id="gender">Khác
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email"><br>
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password"><br>
+        <label for="introduct">Giới thiệu bản thân:</label>
+        <br>
+        <textarea name="introduct" id="introduct" cols="30" rows="10"></textarea>
+        <br>
+        <label for="city">Thành phố</label>
+        <select>
+            <option value="city">Hà Nội</option>
+            <option value="city">Hải Dương</option>
+            <option value="city">Sài Gòn</option>
+            <option value="city">Nha Trang</option>
+        </select>
+        <br>
+        <label for="choose">Hình ảnh:</label>
+        <input type="button" value="Chọn tệp" id="choose">
+        <label>Không có tệp nào được chọn</label>
+        <br>
+        <label for="hooby">Sở thích</label>
+        <input type="checkbox" id="hooby" required>Code
+        <input type="checkbox" id="hooby" required>Chơi game
+        <input type="checkbox" id="hooby" required>Thể thao
+        <input type="checkbox" id="hooby" required>Tán gái
+        <br>
+        <label for="vol">Tiến độ công việc</label>
+        <input type="range" id="vol" min="0" max="100">
+        <br>
+        <label for="year">Năm kinh nghiệm:</label>
+        <input type="text" id="year">
+        <br>
+        <label for="find">Tìm kiếm:</label>
+        <input type="search" id="find">
+        <br>
+        <label for="color">Màu sắc yêu thích:</label>
+        <input type="color" id="color">
+        <br>
+        <input type="button" value="Hủy">
+        <input type="reset" value="Làm mới">
+        <input type="button" value="Gửi">
+    </div>
+    </form>
+</body>
+</html>
